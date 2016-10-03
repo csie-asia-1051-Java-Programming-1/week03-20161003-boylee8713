@@ -4,12 +4,22 @@ package ex;
  * Date: 2016/10/03
  * Author: 1050210XX 周永振老師
  */
-
-public class ex04_1050210XX {
+import java.util.*;
+public class ex04_105021061 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-
+		Scanner src=new Scanner(System.in);
+		long v1=src.nextLong();
+		int sum=0;
+		while(v1>0)
+		{
+			sum=(int)(sum+v1%10);
+			v1=v1/10;
+		}
+	
+		System.out.print(sum);
+				
 	}
 
 }
